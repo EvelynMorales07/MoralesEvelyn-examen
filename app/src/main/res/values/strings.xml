@@ -8,6 +8,13 @@
     <string name="lblPagoMensual">Pago Mensual</string>
     <string name="btnGuardar">Guardar</string>
     <string name="mensaje">estudiante2019</string>
-
+    <string name="res1">¿Por qué eligió este centro educativo?</string>
+    <string name="res2">¿Qué deportes practica?</string>
+    <string name="res3">Está interesado en aprender otro idioma aparte de inglés</string>
+    <string name="fut">Futbol</string>
+    <string name="bas">Basket</string>
+    <string name="otro">Otro</string>
+    <string name="op1">Si</string>
+    <string name="op2">No</string>
 
 </resources>

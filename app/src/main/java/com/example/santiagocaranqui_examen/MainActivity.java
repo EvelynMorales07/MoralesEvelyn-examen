@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,11 +35,16 @@ public class MainActivity extends AppCompatActivity {
 
         if (usu == "estudiante2019" && passw == "uisrael2019")
         {
-            startActivity(new Intent(MainActivity.this, Registro.class ));
-            usuario.setText(usu);
+            Intent miIntent= new Intent(MainActivity.this,Registro.class);
+
+            Bundle miBundle= new Bundle();
+            miBundle.putString("usuario",usuario.getText().toString());
+            miIntent.putExtras(miBundle);
+
+            startActivity(miIntent);
         }else
         {
-
+            Toast.makeText(MainActivity.this, "Error al intentar ingresar", Toast.LENGTH_SHORT).show();
         }
     }
 }
