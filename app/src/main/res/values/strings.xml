@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SantiagoCaranqui-examen</string>
+    <string name="lblUsuario">Usuario</string>
+    <string name="lblPass">Contraseña</string>
+    <string name="lblNombre">Nombre</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="lblMonto">Monto Inicial</string>
+    <string name="lblPagoMensual">Pago Mensual</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="mensaje">estudiante2019</string>
+
+
+</resources>
