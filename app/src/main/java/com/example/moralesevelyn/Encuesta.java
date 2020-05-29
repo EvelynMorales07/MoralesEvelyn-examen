@@ -1,4 +1,4 @@
-package com.example.santiagocaranqui_examen;
+package com.example.moralesevelyn;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -34,17 +34,17 @@ public class Encuesta extends AppCompatActivity {
         String cad3= "";
         if (dep1.isChecked()==true)
         {
-            cad+="Futbol";
+            cad+="¿Por qué eligió este centro?";
 
         }
         if (dep2.isChecked()==true)
         {
-            cad2+="Basket";
+            cad2+="¿Qué deportes practica?";
 
         }
         if (dep3.isChecked()==true)
         {
-            cad3+="Otro";
+            cad3+="Está interesado en aprender otro idioma aparte de inglés.";
 
         }
         String mensaje= cad+" "+cad2+" "+cad3;

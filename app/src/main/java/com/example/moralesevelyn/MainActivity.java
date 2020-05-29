@@ -1,4 +1,4 @@
-package com.example.santiagocaranqui_examen;
+package com.example.moralesevelyn;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         usu= usuario.getText().toString();
         passw= pass.getText().toString();
 
-        if (usu == "estudiante2019" && passw == "uisrael2019")
+        if (usu == "estudiante2020" && passw == "uisrael2020")
         {
             Intent miIntent= new Intent(MainActivity.this,Registro.class);
 
